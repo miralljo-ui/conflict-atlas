@@ -1,0 +1,27 @@
+{
+  "name": "conflict-atlas",
+  "version": "1.0.0",
+  "description": "Atlas interactivo de conflictos geopolíticos con mapa mundial (D3), filtros por intensidad, panel de detalle y soporte multilenguaje.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miralljo-ui/conflict-atlas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/miralljo-ui/conflict-atlas/issues"
+  },
+  "homepage": "https://github.com/miralljo-ui/conflict-atlas#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
